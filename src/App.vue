@@ -1,28 +1,34 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <UnderConstruction />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import UnderConstruction from './components/UnderConstruction.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    UnderConstruction
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 24pt;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  -webkit-text-stroke: 2px black;
+  text-decoration: black;
+  color: #ffffff;
+  margin: auto !important;
+  width: 98%;
+  height: 95vh;
+  background-color: rgb(120, 120, 130);
+  border: ridge 10px rgb(75, 80, 87);
 }
 </style>
