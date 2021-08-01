@@ -1,7 +1,7 @@
 <template>
   <div class="under-construction">
     <img alt="VL Temp Logo" src="../assets/logo.png">
-    <h1>{{ msg }}</h1>
+    <h1 class="construction-msg">{{ msg }}</h1>
   </div>
 </template>
 
@@ -39,5 +39,13 @@ a {
 }
 .under-construction{
   margin-top: 100px;
+}
+.construction-msg {
+  font-size: 24pt;
+}
+@media screen and (max-width: 480px) {
+  .construction-msg {
+    font-size: 16pt;
+  }
 }
 </style>
