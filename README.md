@@ -21,5 +21,10 @@ npm run build
 npm run lint
 ```
 
+### Deploy site to  `https://www.verilianlabs.com`
+```
+npm run deploy
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
